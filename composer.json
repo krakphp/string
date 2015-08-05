@@ -1,0 +1,35 @@
+{
+    "name": "krak/string",
+    "description": "A collection of missing php string functions",
+    "type": "library",
+    "license": "MIT",
+    "homepage": "http://gitlab.bighead.net/krak/string",
+    "keywords": [
+        "misc",
+        "string",
+        "php"
+    ],
+    "authors": [
+        {
+            "name": "RJ Garcia",
+            "email": "rj@bighead.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.2"
+    },
+    "require-dev": {
+        "php": ">=5.5",
+        "phpunit/phpunit": "^4.0"
+    },
+    "autoload": {
+        "files": [
+            "src/string.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Krak\\String\\Tests\\": "tests"
+        }
+    }
+}
